@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: socialhub-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: socialhub
+  template:
+    metadata:
+      labels:
+        app: socialhub
+    spec:
+      containers:
+        - name: socialhub
+          image: socialhub:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080
