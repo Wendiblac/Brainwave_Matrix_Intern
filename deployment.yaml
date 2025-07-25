@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysocialhub-deployment
+  labels:
+    app: mysocialhub
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: mysocialhub
+  template:
+    metadata:
+      labels:
+        app: mysocialhub
+    spec:
+      containers:
+      - name: mysocialhub
+        image: 050451360560.dkr.ecr.eu-central-1.amazonaws.com/mysocialhub-app:latest
+        ports:
+        - containerPort: 80

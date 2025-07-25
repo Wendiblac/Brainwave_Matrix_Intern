@@ -27,7 +27,7 @@ const Index = () => {
           <div className="max-w-7xl mx-auto space-y-6">
             {/* Welcome Header */}
             <div className="mb-8">
-              <h1 className="text-3xl font-bold text-foreground mb-2">Welcome back, John! 👋</h1>
+              <h1 className="text-3xl font-bold text-foreground mb-2">Welcome back, Wendy! 👋</h1>
               <p className="text-muted-foreground">Here's what's happening with your social media accounts today.</p>
             </div>
 

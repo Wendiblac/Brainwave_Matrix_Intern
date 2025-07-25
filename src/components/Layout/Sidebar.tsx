@@ -55,8 +55,8 @@ export function Sidebar() {
         <div className="flex items-center gap-3">
           <div className="h-8 w-8 rounded-full bg-gradient-secondary"></div>
           <div className="flex-1">
-            <p className="text-sm font-medium text-foreground">John Doe</p>
-            <p className="text-xs text-muted-foreground">john@company.com</p>
+            <p className="text-sm font-medium text-foreground">Wendy Amadi</p>
+            <p className="text-xs text-muted-foreground">wendiblac@gmail.com</p>
           </div>
         </div>
       </div>
